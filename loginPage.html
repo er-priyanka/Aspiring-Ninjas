@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or SignUp Page</title>
+    <style>
+        body{
+            background-color: lightskyblue;
+        }
+
+        #container{
+            height: 600px;
+            width: 28%;
+            margin: auto;
+            margin-top: 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 15px;
+            text-align: center;
+            padding-top: 50px;
+            background-color: white;
+        }
+        h1{
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 60px;
+        }
+
+        #container>input{
+            width: 80%;
+            height: 30px;
+            margin-bottom: 30px;
+            padding-left:10px;
+            border: none;
+            border-bottom: 3px solid gray;
+            font-size: 20px;
+        }
+        #container>input:nth-child(8){
+            background-color:darkorchid ;
+            height: 50px;
+            font-size: 24px;
+            border: none;
+            margin-bottom: 80px;
+            color: white;
+        }
+
+        p{
+            font-size: 18px;
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <input type="text" placeholder="Email">
+        <br><br>
+        <input type="password" placeholder="Password">
+        <br><br>
+        <input type="submit" value="Login">
+
+        <p>Forgot <a href="#">Password</a>?</p>
+        
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+
+    </div>
+</body>
+</html>
