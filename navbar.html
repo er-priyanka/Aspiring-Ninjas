@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>Document</title>
+    <style>
+        #parent{
+            border: 0px solid black;
+            height: 60px;
+            width:100%;
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(46, 46, 86);
+            color: white;
+        }
+        #parent>div{
+            border:0px solid teal;
+            margin-left:10px ;
+        }
+        .child2{
+            width: 30%;
+            display: flex;
+            justify-content: space-evenly;
+             
+        }
+        .child2>div{
+            border: 0px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div><p>Reebok</p></div>
+        <div class="child2">
+            <div><p>Men</p></div>
+            <div><p>Women</p></div>
+            <div><p>Login</p></div>
+            <div><p>SignUp</p></div>
+        </div>
+    </div>
+    
+</body>
+</html>
