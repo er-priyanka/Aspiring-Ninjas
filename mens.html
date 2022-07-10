@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens Page</title>
+    <style>
+        #container{
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            font-family: sans-serif;
+            margin-top: 40px;
+        }
+        #container>div{
+            line-height: 10px;
+        }
+        #container>div>img{
+            /* width: 100%; */
+            height: 300px;
+            display: block;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+        #container>div>p{
+            font-size: 30px;
+            color: grey;
+        }
+        #container>div>div{
+            display: flex;
+            align-items: center;
+            margin-top: -15px;
+        }
+        #container>div>div>p:nth-child(2){
+            font-size: 30px;
+            margin-left: 10px;
+            text-decoration: line-through;
+            color: grey;
+        }
+        
+        #container>div>div>p:nth-child(3){
+            font-size: 30px;
+            margin-left: 10px;
+            color:rgb(15, 158, 96);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/618jQIapQtL._AC_UL480_FMwebp_QL65_.jpg" alt="img">
+            <h1>Pause</h1>
+            <p>Men Cotton Long Sleeves Shrug</p>
+            <div>
+                <h1>Rs. 359</h1>
+                <p>Rs. 1499</p>
+                <p>-76%</p>
+            </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/81iZkGX1YIL._AC_UL480_FMwebp_QL65_.jpg" alt="img">
+            <h1>JUBINATION</h1>
+            <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            <div>
+                <h1>Rs. 799</h1>
+                <p>Rs. 1499</p>
+                <p>-47%</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
