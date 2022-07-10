@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      
-    <title>Document</title>
+    <title>Navigation Bar</title>
     <style>
         #parent{
             border: 0px solid black;
@@ -11,21 +11,25 @@
             border-radius: 25px;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             background-color: rgb(46, 46, 86);
             color: white;
+            padding: 10px;
+            box-sizing: border-box;
         }
         #parent>div{
-            border:0px solid teal;
             margin-left:10px ;
         }
         .child2{
             width: 30%;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
              
         }
-        .child2>div{
-            border: 0px solid red;
+       
+        a{
+             text-decoration: none;
+             color: white;
         }
     </style>
 </head>
@@ -33,10 +37,10 @@
     <div id="parent">
         <div><p>Reebok</p></div>
         <div class="child2">
-            <div><p>Men</p></div>
-            <div><p>Women</p></div>
-            <div><p>Login</p></div>
-            <div><p>SignUp</p></div>
+            <div><a href="mens.html">Men</a></div>
+            <div>Women</div>
+            <div><a href="loginPage.html">Login</a></div>
+            <div><a href="signup.html">SignUp</a></div>
         </div>
     </div>
     
